@@ -1,5 +1,5 @@
 name: "container action"
-description: "A Cloud Guru!"
+description: "A Cloud Guru"
 author: "Shih-Chang"
 inputs:
   myInput:
