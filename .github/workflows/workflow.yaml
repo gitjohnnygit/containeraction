@@ -6,10 +6,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: run the action
-          id: hello
-          uses: ./
-          with:
-            myInput: "Shih-Chang"
+        id: hello
+        uses: ./
+        with:
+          myInput: "Shih-Chang"
       - name: output
           run:
             echo ${{ steps.hello.outputs.memory}}
