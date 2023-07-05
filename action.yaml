@@ -5,10 +5,10 @@ inputs:
   myInput:
     description: 'greeting to use'
     required: true
-    default: 'Awsome guru'
+    default: 'Awesome guru'
 outputs:
   myOutput:
-    descriptoin: 'Total memory'
+    description: 'Total memory'
 runs:
   using: 'docker'
   image: 'Dockerfile'
